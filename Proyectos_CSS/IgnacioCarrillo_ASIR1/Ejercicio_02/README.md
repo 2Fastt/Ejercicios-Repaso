@@ -2,7 +2,7 @@ Ejercicio 2: Selectores en CSS
 
 Dado el siguiente código HTML:
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@ Dado el siguiente código HTML:
         <p>Texto dentro de un div.</p>
     </div>
 </body>
-</html>
+</html> -->
 
 Tareas:
     - Selecciona y cambia el color del texto de la clase .destacado a rojo.
