@@ -4,11 +4,29 @@ Curso: [ASIR1]
 Fecha: [04/03/2025] 
 Ejercicio: [Ejercicio 3] 
 */
-.cajaej3{ width: 300px; height: 150px; background-color: yellow; border: 5px solid blue; padding: 10px; margin: 20px; text-align: center;
-} /* wl width  es para el ancho, el height para el alto, el background-color es para el color de fondo, el borde lo ponemos con un ancho de 5px */
+
+/* En este ejercicio vamos a practicar modelo de Caja*/
+
+.cajaej3{ width: 300px;
+    height: 150px;
+    background-color: yellow;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+} /* el width  es para el ancho, el height para el alto, el background-color es para el color de fondo, el borde lo ponemos con un ancho de 5px */
 /* padding, es lo que va a ocupar, un margen de 20px y vamos a alinear el texto al centro de la caja */
 
 /* 
 Fecha: 04/03/2025
 Cambio: Se agregaron todas las indicaciones del ejercicio 1 en cuanto al CSS
+*/
+/* 
+Fecha: 05/03/2025
+Cambio: He puesto todo mas legible en vez de en una sola linea
+*/
+
+/* 
+Fecha: 05/03/2025
+Cambio: Explicación al principio de que es lo que vamos a hacer en este ejercicio.
 */

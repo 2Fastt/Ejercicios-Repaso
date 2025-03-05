@@ -4,6 +4,9 @@ Curso: [ASIR1]
 Fecha: [04/03/2025] 
 Ejercicio: [Ejercicio 2] 
 */
+
+/* En este ejercicio vamos a practicar los selectores en CSS*/
+
 .destacado{ color: red;
 } /* le cambia el color al parrafo a rojo */
 #caja p{ color: green;
@@ -17,4 +20,9 @@ div p{ background-color: gray;
 /* 
 Fecha: 04/03/2025
 Cambio: Se agregaron todas las indicaciones del ejercicio 2 en cuanto al CSS
+*/
+
+/* 
+Fecha: 05/03/2025
+Cambio: Explicación al principio de que es lo que vamos a hacer en este ejercicio.
 */

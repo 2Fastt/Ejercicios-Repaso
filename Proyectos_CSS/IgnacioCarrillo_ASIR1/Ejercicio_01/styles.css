@@ -5,6 +5,8 @@ Fecha: [04/03/2025]
 Ejercicio: [Ejercicio 1] 
 */
 
+/* En este ejercicio vamos a practicar a aplicar estilos basicos*/
+
 body { background-color: #220000;
 } /* Cambia el color del fondo */
 p { color: rgb(0, 132, 255);
@@ -19,4 +21,9 @@ div { border: 2px solid black;
 /* 
 Fecha: 04/03/2025
 Cambio: Se agregaron todas las indicaciones del ejercicio 1 en cuanto al CSS
+*/
+
+/* 
+Fecha: 05/03/2025
+Cambio: Explicación al principio de que es lo que vamos a hacer en este ejercicio.
 */

@@ -5,14 +5,22 @@ Fecha: [05/03/2025]
 Ejercicio: [Ejercicio 4] 
 */
 body {
-    display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;}
 /* justify content lo centra, height vh hace que ocupe toda la altura de la ventana que este abierta. */
 .contenedor {
     display: flex; /* activa el flexbox*/
     justify-content: space-around;
     width: 100%; /* el contenedor ocupara todo el ancho */
 }
-.objetos{ width: 100px; height: 100px; display: flex; justify-content: center; align-items: center;}
+.objetos{ width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 /* width el ancho, height el alto, activa el flexbox, centra todo, y pone en el centro todos los items.*/
 #elemento1{ background-color: green;} /* pone fondo a cada elemento */
 #elemento2{ background-color: blue;}
@@ -21,4 +29,8 @@ body {
 /* 
 Fecha: 05/03/2025
 Cambio: Se agregaron todas las indicaciones del ejercicio 1 en cuanto al CSS
+*/
+/* 
+Fecha: 05/03/2025
+Cambio: He puesto todo mas legible en vez de en una sola linea
 */

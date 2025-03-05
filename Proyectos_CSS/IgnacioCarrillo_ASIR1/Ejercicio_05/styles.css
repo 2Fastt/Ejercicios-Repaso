@@ -4,6 +4,10 @@ Curso: [ASIR1]
 Fecha: [05/03/2025] 
 Ejercicio: [Ejercicio 5] 
 */
+
+/* En este ejercicio vamos a practicar Grid Layout*/
+
+
 body{ display: flex;
     justify-content: center;
     align-items: center;
@@ -30,3 +34,8 @@ body{ display: flex;
     background-color: rgb(158, 95, 216);}
 #elemento6{
     background-color: rgb(38, 225, 231);}
+
+/* 
+Fecha: 05/03/2025
+Cambio: Explicación al principio de que es lo que vamos a hacer en este ejercicio.
+*/
