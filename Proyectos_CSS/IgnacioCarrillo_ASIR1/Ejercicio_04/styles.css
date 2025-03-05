@@ -4,3 +4,11 @@ Curso: [ASIR1]
 Fecha: [04/03/2025] 
 Ejercicio: [Ejercicio 4] 
 */
+body {
+    display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
