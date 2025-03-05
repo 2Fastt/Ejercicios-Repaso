@@ -6,12 +6,17 @@ Ejercicio: [Ejercicio 1]
 */
 
 body { background-color: #220000;
-}
+} /* Cambia el color del fondo */
 p { color: rgb(0, 132, 255);
-}
+} /* Cambia el color de los parrafos en este caso a azul */
 h1 { margin: 20px;
-}
+} /* Lo que va a hacer es aplicar un margen de 20px al h1/titulo */
 body { font-family: Arial, sans-serif;
-}
+} /* Aplica a una fuente tipo Arial */
 div { border: 2px solid black;
-}
+} /* Aplica u borde con un ancho de 2px y color negro */
+
+/* 
+Fecha: 04/03/2025
+Cambio: Se agregaron todas las indicaciones del ejercicio 2 en cuanto al CSS
+*/
