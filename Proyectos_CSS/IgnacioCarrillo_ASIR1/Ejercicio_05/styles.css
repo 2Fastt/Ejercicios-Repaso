@@ -2,5 +2,30 @@
 Nombre: [Ignacio Carrillo] 
 Curso: [ASIR1] 
 Fecha: [05/03/2025] 
-Ejercicio: [Ejercicio 4] 
+Ejercicio: [Ejercicio 5] 
 */
+body{ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}
+.contenedor { display: grid; /* activa el grid*/
+    grid-template-columns: 100px 100px 100px; /* lo que hace es crear 3 columnas del 100px cada una*/
+    grid-template-rows: 100px 200px; /* con esto le digo la altura, de cada fila*/
+}
+.objetos{
+    display: flex;
+    justify-content: center; /* para centrar todo */
+    align-items: center; /* para centrar todo */
+}
+#elemento1{
+    background-color: rgb(241, 204, 155);} /* cambiar el color de fondo */
+#elemento2{
+    background-color: rgb(0, 121, 121);}
+#elemento3{
+    background-color: rgb(79, 165, 136);}
+#elemento4{
+    background-color: rgb(70, 70, 126);}
+#elemento5{
+    background-color: rgb(158, 95, 216);}
+#elemento6{
+    background-color: rgb(38, 225, 231);}
