@@ -5,10 +5,16 @@ Fecha: [04/03/2025]
 Ejercicio: [Ejercicio 2] 
 */
 .destacado{ color: red;
-}
+} /* le cambia el color al parrafo a rojo */
 #caja p{ color: green;
-}
+} /* al parrafo que esta dentro de "caja" le cambia el color a verde */
 h1{ font-size: 30px ;
-}
+} /* pone el h1 con un tamaño de 30px */
 div p{ background-color: gray;
-}
+} /* A el parrafo de dentro del div, le añade un color de fondo gris. */
+
+
+/* 
+Fecha: 04/03/2025
+Cambio: Se agregaron todas las indicaciones del ejercicio 2 en cuanto al CSS
+*/
