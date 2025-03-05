@@ -5,4 +5,10 @@ Fecha: [04/03/2025]
 Ejercicio: [Ejercicio 3] 
 */
 .cajaej3{ width: 300px; height: 150px; background-color: yellow; border: 5px solid blue; padding: 10px; margin: 20px; text-align: center;
-}
+} /* wl width  es para el ancho, el height para el alto, el background-color es para el color de fondo, el borde lo ponemos con un ancho de 5px */
+/* padding, es lo que va a ocupar, un margen de 20px y vamos a alinear el texto al centro de la caja */
+
+/* 
+Fecha: 04/03/2025
+Cambio: Se agregaron todas las indicaciones del ejercicio 1 en cuanto al CSS
+*/
