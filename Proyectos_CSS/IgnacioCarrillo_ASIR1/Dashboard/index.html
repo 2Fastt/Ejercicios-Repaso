@@ -16,10 +16,10 @@ Ejercicio: [Ejercicio Dashboard]
     <div class="barra-izq">
         <h1>Dashboard</h1>
         <ul>
-            <li><a href="nose">Inicio</a></li>
-            <li><a href="nose">Inicio</a></li>
-            <li><a href="nose">Inicio</a></li>
-            <li><a href="nose">Inicio</a></li>
+            <li><a href="nose">Gráfico 1</a></li>
+            <li><a href="nose">Gráfico 2</a></li>
+            <li><a href="nose">Gráfico 3</a></li>
+            <li><a href="nose">Gráfico 4</a></li>
         </ul>
     </div>
     <header>
@@ -28,18 +28,19 @@ Ejercicio: [Ejercicio Dashboard]
     </header>
     
     <main>
-    <div class="tarjetas" style="background-color: rgb(197, 0, 0)">Nose</div>
-    <div class="tarjetas" style="background-color: rgb(235, 53, 53)">Nose</div>
-    <div class="tarjetas" style="background-color: rgb(250, 152, 152)">Nose</div>
-    <div class="tarjetas" style="background-color: rgb(247, 192, 192)">Nose</div>
+    <div class="tarjetas"><img src="/Proyectos_CSS/IgnacioCarrillo_ASIR1/Dashboard/imagenes/grafica1.png" style="width: 100%; border-radius: 5px;"></div>
+    <div class="tarjetas"><img src="/Proyectos_CSS/IgnacioCarrillo_ASIR1/Dashboard/imagenes/grafica2.png" style="width: 100%; border-radius: 5px; margin-top: 15px; "></div>
+    <div class="tarjetas"><img src="/Proyectos_CSS/IgnacioCarrillo_ASIR1/Dashboard/imagenes/grafica3.png" style="width: 100%; border-radius: 5px;"></div>
+    <div class="tarjetas"><img src="/Proyectos_CSS/IgnacioCarrillo_ASIR1/Dashboard/imagenes/grafica5.png" style="width: 100%; border-radius: 5px; margin-top: 15px;"></div>
+
     </main>
-    <script>
+    <script> 
         const toggleButton = document.getElementById('cambiar-brillo');
         toggleButton.addEventListener('click', () => {
             document.body.classList.toggle('dark-mode');
         });
     </script>
-
+    <!-- Este script en javascript nos va a permite el poder cambiar de modo claro a modo oscuro -->
 </body>
 </html>
 

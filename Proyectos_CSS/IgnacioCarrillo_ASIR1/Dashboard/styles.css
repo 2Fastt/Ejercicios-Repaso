@@ -17,7 +17,7 @@ body {
     width: 18%;
     background-color: rgb(43, 42, 42);
     padding: 20px;
-    height: 93vh;
+    height: 95vh;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -83,9 +83,10 @@ main { /* todo esto de debajo es para la disposicion de las tarjetas en columnas
 .tarjetas{
     border-radius: 5px;
     padding: 10px;
+    background-color: #000000;
 }
 .tarjetas:hover{
-    background-color: aquamarine;
+    background-color: rgb(41, 41, 41);
 }
 
 body.dark-mode{ /* con esto a cada elemento le cambio el color para el modo oscuro */
