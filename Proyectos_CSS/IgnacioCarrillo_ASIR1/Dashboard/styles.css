@@ -4,3 +4,27 @@ Curso: [ASIR1]
 Fecha: [07/03/2025] 
 Ejercicio: [Ejercicio Dashboard] 
 */
+body{
+    display: flex;
+}
+.barra-izq{
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 42, 42);
+    color: rgb(197, 0, 0);
+    padding: 10px;
+}
+.tarjetas{
+    border-radius: 5px;
+    padding: 10px;
+}
+.tarjetas:hover{
+    background-color: aquamarine;
+}

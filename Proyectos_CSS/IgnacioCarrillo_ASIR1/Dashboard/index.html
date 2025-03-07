@@ -6,6 +6,7 @@ Curso: [ASIR1]
 Fecha: [07/03/2025] 
 Ejercicio: [Ejercicio Dashboard] 
 -->
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -24,7 +25,19 @@ Ejercicio: [Ejercicio Dashboard]
         <h1>Panel de Control</h1>
         <button id="cambiar-brillo">Modo Oscuro</button>
     </header>
-</body>
+    
+    <div class="tarjetas" style="background-color: rgb(197, 0, 0)">Nose</div>
+    <div class="tarjetas" style="background-color: rgb(235, 53, 53)">Nose</div>
+    <div class="tarjetas" style="background-color: rgb(250, 152, 152)">Nose</div>
+    <div class="tarjetas" style="background-color: rgb(247, 192, 192)">Nose</div>
 
+    <script>
+        const toggleButton = document.getElementById('cambiar-brillo');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+
+</body>
 </html>
 
