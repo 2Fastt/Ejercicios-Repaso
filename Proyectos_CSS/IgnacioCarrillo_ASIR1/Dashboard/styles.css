@@ -4,6 +4,7 @@ Curso: [ASIR1]
 Fecha: [07/03/2025] 
 Ejercicio: [Ejercicio Dashboard] 
 */
+
 html, body{
     height: 100%;
     margin: 0;
@@ -14,10 +15,46 @@ body {
 }
 .barra-izq{
     width: 18%;
-    background-color: #f4f4f4;
+    background-color: rgb(43, 42, 42);
     padding: 20px;
-    height: 100vh;
+    height: 93vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
 }
+.barra-izq h1 {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+    color: rgb(197, 0, 0);
+}
+.barra-izq ul {
+    flex-grow: 1;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.barra-izq li {
+    font-size: 1.5em;
+    text-align: center;
+}
+.barra-izq a {
+    text-decoration: none;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: black;
+}
+.barra-izq a:hover {
+    background-color: #030303;
+    color: red;
+}
+
 header {
     width: 1500px;
     display: flex;
@@ -25,13 +62,15 @@ header {
     align-items: center;
     background-color: rgb(43, 42, 42);
     color: rgb(197, 0, 0);
+    border-radius: 10px;
     padding: 10px;
     position: fixed; /* fija el header arriba */
-    top: 0; /* esto es la distancia que hay de arriba de la pagina hasta el header */
-    left: 20.5%; /* la distancia que hay del elemento a la izquierda */
+    top: 10px; /* esto es la distancia que hay de arriba de la pagina hasta el header */
+    left: 20.2%; /* la distancia que hay del elemento a la izquierda */
     z-index: 1000;
 }
-main {
+
+main { /* todo esto de debajo es para la disposicion de las tarjetas en columnas, su ancho, su margen, etc... */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -40,6 +79,7 @@ main {
     width: 70%;
     margin-top: 120px;
 }
+
 .tarjetas{
     border-radius: 5px;
     padding: 10px;
@@ -47,11 +87,12 @@ main {
 .tarjetas:hover{
     background-color: aquamarine;
 }
-body.dark-mode{ /* Con esto a cada elemento le cambio el color para el modo oscuro */
+
+body.dark-mode{ /* con esto a cada elemento le cambio el color para el modo oscuro */
     background-color: #181717;
     color: white;}
 body.dark-mode .barra-izq {
-    background-color: #525151;
+    background-color: #000000;
 }
 body.dark-mode header {
     background-color: #000000;
@@ -59,7 +100,8 @@ body.dark-mode header {
 body.dark-mode .tarjetas {
     background-color: #000000;
 }
-@media (max-width: 600px) {  /* Esto es para el responsive, si es de 600pixeles o menos pues se adapte */
+
+@media (max-width: 600px) {  /* esto es para el responsive, si es de 600pixeles o menos pues se adapte */
     .tarjetas {
         grid-template-columns: 1fr;
     }
