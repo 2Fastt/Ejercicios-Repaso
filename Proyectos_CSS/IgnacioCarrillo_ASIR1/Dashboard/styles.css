@@ -4,22 +4,41 @@ Curso: [ASIR1]
 Fecha: [07/03/2025] 
 Ejercicio: [Ejercicio Dashboard] 
 */
-body{
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body {
     display: flex;
+    flex-direction: row;
 }
 .barra-izq{
-    width: 30%;
+    width: 18%;
     background-color: #f4f4f4;
     padding: 20px;
+    height: 100vh;
 }
-header{
-    width: 100%;
+header {
+    width: 1500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(43, 42, 42);
     color: rgb(197, 0, 0);
     padding: 10px;
+    position: fixed; /* fija el header arriba */
+    top: 0; /* esto es la distancia que hay de arriba de la pagina hasta el header */
+    left: 20.5%; /* la distancia que hay del elemento a la izquierda */
+    z-index: 1000;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 70%;
+    margin-top: 120px;
 }
 .tarjetas{
     border-radius: 5px;
@@ -27,4 +46,21 @@ header{
 }
 .tarjetas:hover{
     background-color: aquamarine;
+}
+body.dark-mode{ /* Con esto a cada elemento le cambio el color para el modo oscuro */
+    background-color: #181717;
+    color: white;}
+body.dark-mode .barra-izq {
+    background-color: #525151;
+}
+body.dark-mode header {
+    background-color: #000000;
+}
+body.dark-mode .tarjetas {
+    background-color: #000000;
+}
+@media (max-width: 600px) {  /* Esto es para el responsive, si es de 600pixeles o menos pues se adapte */
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
 }
